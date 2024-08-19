@@ -1,0 +1,19 @@
+{
+    "integrations": {
+        "mintlify": {
+            "trigger": {
+                "type": "button",
+                "label": "Yardım Al",
+                "buttonIcon": "chat"
+            },
+            "isDarkMode": false,
+            "apiKey": "mint_dsc_3ZKz3Z92yKQjuRAZjtm5Ea84" // Buraya API anahtarını ekle
+        }
+    }
+}
+
+{
+    "integrations": {
+        "intercom": "YOUR_INTERCOM_APP_ID"
+    }
+}

@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('Frame 1000005328.png') no-repeat center center fixed;
+    /* Arka plan görselini ekliyoruz */
+    background-size: cover;
+    /* Görselin boyutunu ekranı kaplayacak şekilde ayarlıyoruz */
+}
+
+.container {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.8);
+    /* Yazıyı daha okunabilir kılmak için beyaz yarı saydam bir arka plan ekliyoruz */
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #0D9373;
+    font-size: 3em;
+    /* Başlığı büyütüyoruz */
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 10px;
+}
